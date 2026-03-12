@@ -59,10 +59,10 @@ document.addEventListener('DOMContentLoaded', function () {
     btn.addEventListener('click', function () {
       var trackingName = this.getAttribute('data-tracking');
 
-      // Google Ads conversion event (reemplazar ID/label por los del cliente)
+      // Google Ads conversion event - Fast Car Audio
       if (typeof gtag === 'function') {
         gtag('event', 'conversion', {
-          'send_to': 'AW-XXXXXXXXX/XXXXXXXXXXXX', // ← REEMPLAZAR
+          'send_to': 'AW-11346785602/igniCM_NsIccEMLqyKIq',
           'event_callback': function () { }
         });
       }
